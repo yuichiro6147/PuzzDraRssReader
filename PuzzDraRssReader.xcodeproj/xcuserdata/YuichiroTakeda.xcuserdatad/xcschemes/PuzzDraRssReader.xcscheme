@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E686FE2C1DB8DE7700652A19"
+               BuildableName = "PuzzDraRssReader.app"
+               BlueprintName = "PuzzDraRssReader"
+               ReferencedContainer = "container:PuzzDraRssReader.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E686FE401DB8DE7800652A19"
+               BuildableName = "PuzzDraRssReaderTests.xctest"
+               BlueprintName = "PuzzDraRssReaderTests"
+               ReferencedContainer = "container:PuzzDraRssReader.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E686FE4B1DB8DE7800652A19"
+               BuildableName = "PuzzDraRssReaderUITests.xctest"
+               BlueprintName = "PuzzDraRssReaderUITests"
+               ReferencedContainer = "container:PuzzDraRssReader.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E686FE2C1DB8DE7700652A19"
+            BuildableName = "PuzzDraRssReader.app"
+            BlueprintName = "PuzzDraRssReader"
+            ReferencedContainer = "container:PuzzDraRssReader.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E686FE2C1DB8DE7700652A19"
+            BuildableName = "PuzzDraRssReader.app"
+            BlueprintName = "PuzzDraRssReader"
+            ReferencedContainer = "container:PuzzDraRssReader.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E686FE2C1DB8DE7700652A19"
+            BuildableName = "PuzzDraRssReader.app"
+            BlueprintName = "PuzzDraRssReader"
+            ReferencedContainer = "container:PuzzDraRssReader.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
