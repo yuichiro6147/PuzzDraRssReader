@@ -6,3 +6,6 @@
 # 参考文献
 ・iOS初心者がSwiftでグノシーみたいなタブ型RSSリーダーを作ってみた
 http://x1.inkenkun.com/archives/909
+
+・RSSソース元
+http://pazdra.antenam.info/
