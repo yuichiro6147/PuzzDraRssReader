@@ -1,6 +1,0 @@
-framework module Pods_PuzzDraRssReader {
-  umbrella header "Pods-PuzzDraRssReader-umbrella.h"
-
-  export *
-  module * { export * }
-}
