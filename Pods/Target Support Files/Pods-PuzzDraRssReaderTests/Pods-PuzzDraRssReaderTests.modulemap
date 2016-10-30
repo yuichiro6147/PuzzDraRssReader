@@ -1,6 +1,0 @@
-framework module Pods_PuzzDraRssReaderTests {
-  umbrella header "Pods-PuzzDraRssReaderTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
