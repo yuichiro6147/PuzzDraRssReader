@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9CE44A52867AC8DB58D6499A2F7EBF7B5E6FD50D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9CE44A52867AC8DB58D6499A2F7EBF7B5E6FD50D" : 9223372036854775807,
+    "37453E3242D2A7FC12D9A6960208F77CE9854DC7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FEE0F486-A579-43E5-906B-A3797A30EF11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9CE44A52867AC8DB58D6499A2F7EBF7B5E6FD50D" : "PuzzDraRssReader\/",
+    "37453E3242D2A7FC12D9A6960208F77CE9854DC7" : "PullToRefreshSwift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PuzzDraRssReader",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PuzzDraRssReader.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:dekatotoro\/PullToRefreshSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37453E3242D2A7FC12D9A6960208F77CE9854DC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yuichiro6147\/PuzzDraRssReader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CE44A52867AC8DB58D6499A2F7EBF7B5E6FD50D"
+    }
+  ]
+}
