@@ -9,29 +9,6 @@
 /* Begin PBXBuildFile section */
 		A39CB24C26D3364A1BE3707F /* Pods_PuzzDraRssReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E2D621FF78AC5CA494277 /* Pods_PuzzDraRssReader.framework */; };
 		C414B84F2A3B86DA2260C460 /* Pods_PuzzDraRssReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D876D79B4DC4648D4F62F931 /* Pods_PuzzDraRssReaderUITests.framework */; };
-		E61853981DC5F56A008FB247 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E61853761DC5F56A008FB247 /* .gitignore */; };
-		E61853991DC5F56A008FB247 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = E61853771DC5F56A008FB247 /* .swift-version */; };
-		E618539A1DC5F56A008FB247 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618537A1DC5F56A008FB247 /* Animator.swift */; };
-		E618539B1DC5F56A008FB247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618537B1DC5F56A008FB247 /* AppDelegate.swift */; };
-		E618539C1DC5F56A008FB247 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618537C1DC5F56A008FB247 /* ArrayExtension.swift */; };
-		E618539D1DC5F56A008FB247 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E618537D1DC5F56A008FB247 /* LaunchScreen.xib */; };
-		E618539E1DC5F56A008FB247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E618537F1DC5F56A008FB247 /* Main.storyboard */; };
-		E618539F1DC5F56A008FB247 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61853811DC5F56A008FB247 /* Images.xcassets */; };
-		E61853A01DC5F56A008FB247 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E61853821DC5F56A008FB247 /* Info.plist */; };
-		E61853A11DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E61853831DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodeld */; };
-		E61853A21DC5F56A008FB247 /* PullToRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61853851DC5F56A008FB247 /* PullToRefreshView.xib */; };
-		E61853A31DC5F56A008FB247 /* PullToRefreshView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61853861DC5F56A008FB247 /* PullToRefreshView2.swift */; };
-		E61853A41DC5F56A008FB247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61853871DC5F56A008FB247 /* ViewController.swift */; };
-		E61853A51DC5F56A008FB247 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E618538C1DC5F56A008FB247 /* Info.plist */; };
-		E61853A61DC5F56A008FB247 /* PullToRefreshSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618538D1DC5F56A008FB247 /* PullToRefreshSwiftTests.swift */; };
-		E61853A71DC5F56A008FB247 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E618538E1DC5F56A008FB247 /* LICENSE */; };
-		E61853A81DC5F56A008FB247 /* PullToRefreshSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E618538F1DC5F56A008FB247 /* PullToRefreshSwift.podspec */; };
-		E61853A91DC5F56A008FB247 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E61853901DC5F56A008FB247 /* README.md */; };
-		E61853AA1DC5F56A008FB247 /* PullToRefreshSwift.gif in Resources */ = {isa = PBXBuildFile; fileRef = E61853921DC5F56A008FB247 /* PullToRefreshSwift.gif */; };
-		E61853AB1DC5F56A008FB247 /* pulltorefresharrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E61853941DC5F56A008FB247 /* pulltorefresharrow.png */; };
-		E61853AC1DC5F56A008FB247 /* PullToRefreshOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61853951DC5F56A008FB247 /* PullToRefreshOption.swift */; };
-		E61853AD1DC5F56A008FB247 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61853961DC5F56A008FB247 /* PullToRefreshView.swift */; };
-		E61853AE1DC5F56A008FB247 /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61853971DC5F56A008FB247 /* UIScrollViewExtension.swift */; };
 		E686FE311DB8DE7800652A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686FE301DB8DE7800652A19 /* AppDelegate.swift */; };
 		E686FE331DB8DE7800652A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686FE321DB8DE7800652A19 /* ViewController.swift */; };
 		E686FE361DB8DE7800652A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E686FE341DB8DE7800652A19 /* Main.storyboard */; };
@@ -45,20 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E61853B11DC5F56A008FB247 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E61853881DC5F56A008FB247 /* PullToRefreshSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C53BEC3A1A357BCA008A4302;
-			remoteInfo = PullToRefreshSwift;
-		};
-		E61853B31DC5F56A008FB247 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E61853881DC5F56A008FB247 /* PullToRefreshSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C53BEC521A357BCA008A4302;
-			remoteInfo = PullToRefreshSwiftTests;
-		};
 		E686FE421DB8DE7800652A19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E686FE251DB8DE7700652A19 /* Project object */;
@@ -90,30 +53,6 @@
 		E6156CFC1DBF8E6A007AF6AB /* HTMLReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTMLReader.framework; path = Carthage/Build/iOS/HTMLReader.framework; sourceTree = "<group>"; };
 		E6156CFD1DBF8E6A007AF6AB /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		E6156D001DBF8F67007AF6AB /* TOWebViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOWebViewController.framework; path = Carthage/Build/iOS/TOWebViewController.framework; sourceTree = "<group>"; };
-		E61853761DC5F56A008FB247 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		E61853771DC5F56A008FB247 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		E618537A1DC5F56A008FB247 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
-		E618537B1DC5F56A008FB247 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E618537C1DC5F56A008FB247 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		E618537E1DC5F56A008FB247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E61853801DC5F56A008FB247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E61853811DC5F56A008FB247 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E61853821DC5F56A008FB247 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E61853841DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PullToRefreshSwift.xcdatamodel; sourceTree = "<group>"; };
-		E61853851DC5F56A008FB247 /* PullToRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PullToRefreshView.xib; sourceTree = "<group>"; };
-		E61853861DC5F56A008FB247 /* PullToRefreshView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView2.swift; sourceTree = "<group>"; };
-		E61853871DC5F56A008FB247 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E61853881DC5F56A008FB247 /* PullToRefreshSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PullToRefreshSwift.xcodeproj; sourceTree = "<group>"; };
-		E618538C1DC5F56A008FB247 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E618538D1DC5F56A008FB247 /* PullToRefreshSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshSwiftTests.swift; sourceTree = "<group>"; };
-		E618538E1DC5F56A008FB247 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E618538F1DC5F56A008FB247 /* PullToRefreshSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PullToRefreshSwift.podspec; sourceTree = "<group>"; };
-		E61853901DC5F56A008FB247 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E61853921DC5F56A008FB247 /* PullToRefreshSwift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PullToRefreshSwift.gif; sourceTree = "<group>"; };
-		E61853941DC5F56A008FB247 /* pulltorefresharrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pulltorefresharrow.png; sourceTree = "<group>"; };
-		E61853951DC5F56A008FB247 /* PullToRefreshOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshOption.swift; sourceTree = "<group>"; };
-		E61853961DC5F56A008FB247 /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
-		E61853971DC5F56A008FB247 /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
 		E686FE2D1DB8DE7800652A19 /* PuzzDraRssReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzDraRssReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E686FE301DB8DE7800652A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E686FE321DB8DE7800652A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,87 +126,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E61853751DC5F56A008FB247 /* PullToRefreshSwift */ = {
-			isa = PBXGroup;
-			children = (
-				E61853761DC5F56A008FB247 /* .gitignore */,
-				E61853771DC5F56A008FB247 /* .swift-version */,
-				E61853781DC5F56A008FB247 /* Example */,
-				E618538E1DC5F56A008FB247 /* LICENSE */,
-				E618538F1DC5F56A008FB247 /* PullToRefreshSwift.podspec */,
-				E61853901DC5F56A008FB247 /* README.md */,
-				E61853911DC5F56A008FB247 /* Screenshots */,
-				E61853931DC5F56A008FB247 /* Source */,
-			);
-			name = PullToRefreshSwift;
-			path = ../../PullToRefreshSwift;
-			sourceTree = "<group>";
-		};
-		E61853781DC5F56A008FB247 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				E61853791DC5F56A008FB247 /* PullToRefreshSwift */,
-				E61853881DC5F56A008FB247 /* PullToRefreshSwift.xcodeproj */,
-				E618538B1DC5F56A008FB247 /* PullToRefreshSwiftTests */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		E61853791DC5F56A008FB247 /* PullToRefreshSwift */ = {
-			isa = PBXGroup;
-			children = (
-				E618537A1DC5F56A008FB247 /* Animator.swift */,
-				E618537B1DC5F56A008FB247 /* AppDelegate.swift */,
-				E618537C1DC5F56A008FB247 /* ArrayExtension.swift */,
-				E618537D1DC5F56A008FB247 /* LaunchScreen.xib */,
-				E618537F1DC5F56A008FB247 /* Main.storyboard */,
-				E61853811DC5F56A008FB247 /* Images.xcassets */,
-				E61853821DC5F56A008FB247 /* Info.plist */,
-				E61853831DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodeld */,
-				E61853851DC5F56A008FB247 /* PullToRefreshView.xib */,
-				E61853861DC5F56A008FB247 /* PullToRefreshView2.swift */,
-				E61853871DC5F56A008FB247 /* ViewController.swift */,
-			);
-			path = PullToRefreshSwift;
-			sourceTree = "<group>";
-		};
-		E61853891DC5F56A008FB247 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E61853B21DC5F56A008FB247 /* PullToRefreshSwift.app */,
-				E61853B41DC5F56A008FB247 /* PullToRefreshSwiftTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E618538B1DC5F56A008FB247 /* PullToRefreshSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				E618538C1DC5F56A008FB247 /* Info.plist */,
-				E618538D1DC5F56A008FB247 /* PullToRefreshSwiftTests.swift */,
-			);
-			path = PullToRefreshSwiftTests;
-			sourceTree = "<group>";
-		};
-		E61853911DC5F56A008FB247 /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				E61853921DC5F56A008FB247 /* PullToRefreshSwift.gif */,
-			);
-			path = Screenshots;
-			sourceTree = "<group>";
-		};
-		E61853931DC5F56A008FB247 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				E61853941DC5F56A008FB247 /* pulltorefresharrow.png */,
-				E61853951DC5F56A008FB247 /* PullToRefreshOption.swift */,
-				E61853961DC5F56A008FB247 /* PullToRefreshView.swift */,
-				E61853971DC5F56A008FB247 /* UIScrollViewExtension.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		E686FE241DB8DE7700652A19 = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +151,6 @@
 		E686FE2F1DB8DE7800652A19 /* PuzzDraRssReader */ = {
 			isa = PBXGroup;
 			children = (
-				E61853751DC5F56A008FB247 /* PullToRefreshSwift */,
 				E686FE301DB8DE7800652A19 /* AppDelegate.swift */,
 				E686FE321DB8DE7800652A19 /* ViewController.swift */,
 				E686FE341DB8DE7800652A19 /* Main.storyboard */,
@@ -430,12 +287,6 @@
 			mainGroup = E686FE241DB8DE7700652A19;
 			productRefGroup = E686FE2E1DB8DE7800652A19 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E61853891DC5F56A008FB247 /* Products */;
-					ProjectRef = E61853881DC5F56A008FB247 /* PullToRefreshSwift.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E686FE2C1DB8DE7700652A19 /* PuzzDraRssReader */,
@@ -445,43 +296,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		E61853B21DC5F56A008FB247 /* PullToRefreshSwift.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = PullToRefreshSwift.app;
-			remoteRef = E61853B11DC5F56A008FB247 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E61853B41DC5F56A008FB247 /* PullToRefreshSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PullToRefreshSwiftTests.xctest;
-			remoteRef = E61853B31DC5F56A008FB247 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		E686FE2B1DB8DE7700652A19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E618539F1DC5F56A008FB247 /* Images.xcassets in Resources */,
-				E61853981DC5F56A008FB247 /* .gitignore in Resources */,
-				E61853A71DC5F56A008FB247 /* LICENSE in Resources */,
-				E61853AB1DC5F56A008FB247 /* pulltorefresharrow.png in Resources */,
 				E686FE3B1DB8DE7800652A19 /* LaunchScreen.storyboard in Resources */,
 				E686FE381DB8DE7800652A19 /* Assets.xcassets in Resources */,
-				E618539E1DC5F56A008FB247 /* Main.storyboard in Resources */,
-				E618539D1DC5F56A008FB247 /* LaunchScreen.xib in Resources */,
 				E686FE361DB8DE7800652A19 /* Main.storyboard in Resources */,
-				E61853A81DC5F56A008FB247 /* PullToRefreshSwift.podspec in Resources */,
-				E61853AA1DC5F56A008FB247 /* PullToRefreshSwift.gif in Resources */,
-				E61853A21DC5F56A008FB247 /* PullToRefreshView.xib in Resources */,
-				E61853A51DC5F56A008FB247 /* Info.plist in Resources */,
-				E61853991DC5F56A008FB247 /* .swift-version in Resources */,
-				E61853A01DC5F56A008FB247 /* Info.plist in Resources */,
 				E686FE621DBE357600652A19 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,20 +480,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61853AC1DC5F56A008FB247 /* PullToRefreshOption.swift in Sources */,
-				E618539A1DC5F56A008FB247 /* Animator.swift in Sources */,
 				E686FE331DB8DE7800652A19 /* ViewController.swift in Sources */,
 				E686FE611DBE357600652A19 /* TableViewController.swift in Sources */,
-				E61853AD1DC5F56A008FB247 /* PullToRefreshView.swift in Sources */,
-				E61853A41DC5F56A008FB247 /* ViewController.swift in Sources */,
-				E61853A11DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodeld in Sources */,
-				E618539C1DC5F56A008FB247 /* ArrayExtension.swift in Sources */,
-				E618539B1DC5F56A008FB247 /* AppDelegate.swift in Sources */,
 				E686FE311DB8DE7800652A19 /* AppDelegate.swift in Sources */,
-				E61853A31DC5F56A008FB247 /* PullToRefreshView2.swift in Sources */,
-				E61853A91DC5F56A008FB247 /* README.md in Sources */,
-				E61853A61DC5F56A008FB247 /* PullToRefreshSwiftTests.swift in Sources */,
-				E61853AE1DC5F56A008FB247 /* UIScrollViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,22 +518,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E618537D1DC5F56A008FB247 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E618537E1DC5F56A008FB247 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		E618537F1DC5F56A008FB247 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E61853801DC5F56A008FB247 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E686FE341DB8DE7800652A19 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -969,19 +764,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E61853831DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E61853841DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodel */,
-			);
-			currentVersion = E61853841DC5F56A008FB247 /* PullToRefreshSwift.xcdatamodel */;
-			path = PullToRefreshSwift.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E686FE251DB8DE7700652A19 /* Project object */;
 }
