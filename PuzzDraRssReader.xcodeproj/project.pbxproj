@@ -18,6 +18,8 @@
 		E686FE511DB8DE7800652A19 /* PuzzDraRssReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686FE501DB8DE7800652A19 /* PuzzDraRssReaderUITests.swift */; };
 		E686FE611DBE357600652A19 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686FE5F1DBE357600652A19 /* TableViewController.swift */; };
 		E686FE621DBE357600652A19 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E686FE601DBE357600652A19 /* TableViewController.xib */; };
+		E6F5B9F21DD890B6004FE7E4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F5B9F01DD890B6004FE7E4 /* CustomCell.swift */; };
+		E6F5B9F31DD890B6004FE7E4 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F5B9F11DD890B6004FE7E4 /* CustomCell.xib */; };
 		F1B5FE9EA24A2D5DEC8743BB /* Pods_PuzzDraRssReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6D46E4DECF567FEDDD2364 /* Pods_PuzzDraRssReaderTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		E686FE521DB8DE7800652A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E686FE5F1DBE357600652A19 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E686FE601DBE357600652A19 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		E6F5B9F01DD890B6004FE7E4 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E6F5B9F11DD890B6004FE7E4 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 				E686FE5F1DBE357600652A19 /* TableViewController.swift */,
 				E686FE601DBE357600652A19 /* TableViewController.xib */,
 				A4CE8FC81DC6250C00080BD8 /* PuzzDraRssReader-Bridging-Header.h */,
+				E6F5B9F01DD890B6004FE7E4 /* CustomCell.swift */,
+				E6F5B9F11DD890B6004FE7E4 /* CustomCell.xib */,
 			);
 			path = PuzzDraRssReader;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F5B9F31DD890B6004FE7E4 /* CustomCell.xib in Resources */,
 				E686FE3B1DB8DE7800652A19 /* LaunchScreen.storyboard in Resources */,
 				E686FE381DB8DE7800652A19 /* Assets.xcassets in Resources */,
 				E686FE361DB8DE7800652A19 /* Main.storyboard in Resources */,
@@ -484,6 +491,7 @@
 			files = (
 				E686FE331DB8DE7800652A19 /* ViewController.swift in Sources */,
 				E686FE611DBE357600652A19 /* TableViewController.swift in Sources */,
+				E6F5B9F21DD890B6004FE7E4 /* CustomCell.swift in Sources */,
 				E686FE311DB8DE7800652A19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
