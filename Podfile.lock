@@ -2,6 +2,7 @@ PODS:
   - Alamofire (4.0.1)
   - HTMLReader (2.0)
   - PageMenu (1.2.9)
+  - PullToRefreshSwift (3.0.3)
   - SVProgressHUD (2.0.3)
   - SwiftyJSON (3.1.1)
   - TOWebViewController (2.2.6):
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
   - HTMLReader
   - PageMenu (from `https://github.com/orazz/PageMenu.git`)
+  - PullToRefreshSwift
   - SVProgressHUD
   - SwiftyJSON
   - TOWebViewController
@@ -34,10 +36,11 @@ SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   HTMLReader: 7fbf32ddfcbcdfeba0833713e4545d1862aeb07c
   PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  PullToRefreshSwift: 0743b818072bfd7c9464addc2d1b987b131057ca
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
   TOWebViewController: a29908019f7e0e0f8eccfab8a1ee8dcdf4fc5aac
 
-PODFILE CHECKSUM: 977a7e514f8f4307557b35acd951030289f67fa5
+PODFILE CHECKSUM: 29f4eb6f56f4f4af763b99863b7ed6d3e77ad058
 
 COCOAPODS: 1.1.1

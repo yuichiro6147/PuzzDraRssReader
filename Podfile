@@ -14,6 +14,7 @@ target 'PuzzDraRssReader' do
  pod 'TOWebViewController'
  pod 'PageMenu', :git => 'https://github.com/orazz/PageMenu.git'
  pod "HTMLReader"
+ pod 'PullToRefreshSwift'
 
   target 'PuzzDraRssReaderTests' do
     inherit! :search_paths

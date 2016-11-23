@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PullToRefreshSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,17 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>30C87593E5E5F7ED8F407C4B618E74FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>35AB4E645558A256E1C06F38C71F4836</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3EA6F67E9389A019699F82E81EFB5D5B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>47D07D0FC85A5F298AEDB8C7D33717F0</key>
+		<key>3B4C24056F29CB59AA8E445FCF52AB0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,17 +97,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>872F01E8C2D5170EC4A543B096532E54</key>
+		<key>7AFFF3E14BEF6CB9422ADDDEA8A57CF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8DB488A2F42AF182F3BDC97E8DFCDFDE</key>
+		<key>A704B15FA672C4E5FFCB7AF6CFC2B6B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD4548180E92BE7E9B778E02BF4D6372</key>
+		<key>A82113092726CDDAA42047C5522B374F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE604C95AFC01733E3359444B65F8977</key>
 		<dict>
 			<key>primary</key>
 			<true/>

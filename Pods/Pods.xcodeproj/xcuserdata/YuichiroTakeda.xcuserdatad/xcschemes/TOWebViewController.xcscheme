@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '47D07D0FC85A5F298AEDB8C7D33717F0'
+               BlueprintIdentifier = 'AE604C95AFC01733E3359444B65F8977'
                BlueprintName = 'TOWebViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TOWebViewController.framework'>
