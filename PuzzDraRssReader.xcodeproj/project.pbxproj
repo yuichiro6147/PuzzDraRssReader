@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A39CB24C26D3364A1BE3707F /* Pods_PuzzDraRssReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E2D621FF78AC5CA494277 /* Pods_PuzzDraRssReader.framework */; };
 		C414B84F2A3B86DA2260C460 /* Pods_PuzzDraRssReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D876D79B4DC4648D4F62F931 /* Pods_PuzzDraRssReaderUITests.framework */; };
+		E66F9D891DE58DA600550250 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66F9D881DE58DA600550250 /* FeedTableViewController.swift */; };
+		E66F9D8B1DE58DED00550250 /* ParseFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66F9D8A1DE58DED00550250 /* ParseFeed.swift */; };
 		E686FE311DB8DE7800652A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686FE301DB8DE7800652A19 /* AppDelegate.swift */; };
 		E686FE331DB8DE7800652A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E686FE321DB8DE7800652A19 /* ViewController.swift */; };
 		E686FE361DB8DE7800652A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E686FE341DB8DE7800652A19 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 		E6156CFC1DBF8E6A007AF6AB /* HTMLReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTMLReader.framework; path = Carthage/Build/iOS/HTMLReader.framework; sourceTree = "<group>"; };
 		E6156CFD1DBF8E6A007AF6AB /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		E6156D001DBF8F67007AF6AB /* TOWebViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOWebViewController.framework; path = Carthage/Build/iOS/TOWebViewController.framework; sourceTree = "<group>"; };
+		E66F9D881DE58DA600550250 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		E66F9D8A1DE58DED00550250 /* ParseFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseFeed.swift; sourceTree = "<group>"; };
 		E686FE2D1DB8DE7800652A19 /* PuzzDraRssReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzDraRssReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E686FE301DB8DE7800652A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E686FE321DB8DE7800652A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				A4CE8FC81DC6250C00080BD8 /* PuzzDraRssReader-Bridging-Header.h */,
 				E6F5B9F01DD890B6004FE7E4 /* CustomCell.swift */,
 				E6F5B9F11DD890B6004FE7E4 /* CustomCell.xib */,
+				E66F9D881DE58DA600550250 /* FeedTableViewController.swift */,
+				E66F9D8A1DE58DED00550250 /* ParseFeed.swift */,
 			);
 			path = PuzzDraRssReader;
 			sourceTree = "<group>";
@@ -262,7 +268,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Yuichiro-Takeda";
 				TargetAttributes = {
 					E686FE2C1DB8DE7700652A19 = {
@@ -490,7 +496,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E686FE331DB8DE7800652A19 /* ViewController.swift in Sources */,
+				E66F9D8B1DE58DED00550250 /* ParseFeed.swift in Sources */,
 				E686FE611DBE357600652A19 /* TableViewController.swift in Sources */,
+				E66F9D891DE58DA600550250 /* FeedTableViewController.swift in Sources */,
 				E6F5B9F21DD890B6004FE7E4 /* CustomCell.swift in Sources */,
 				E686FE311DB8DE7800652A19 /* AppDelegate.swift in Sources */,
 			);
@@ -565,10 +573,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos10.2]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -615,10 +624,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos10.2]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -646,6 +656,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos10.2]" = "";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos10.2]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -657,7 +671,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PuzzDraRssReader/PuzzDraRssReader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
@@ -668,6 +682,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos10.2]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -678,7 +695,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tak.dev.PuzzDraRssReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PuzzDraRssReader/PuzzDraRssReader-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
