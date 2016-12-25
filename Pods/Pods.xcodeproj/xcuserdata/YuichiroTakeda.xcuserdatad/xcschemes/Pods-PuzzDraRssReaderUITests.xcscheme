@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D4466C6621609264B346D319CD8A140"
+               BlueprintIdentifier = "5E5766F6B78F1DD9CA7E8296A3A82B32"
                BuildableName = "Pods_PuzzDraRssReaderUITests.framework"
                BlueprintName = "Pods-PuzzDraRssReaderUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D4466C6621609264B346D319CD8A140"
+            BlueprintIdentifier = "5E5766F6B78F1DD9CA7E8296A3A82B32"
             BuildableName = "Pods_PuzzDraRssReaderUITests.framework"
             BlueprintName = "Pods-PuzzDraRssReaderUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
